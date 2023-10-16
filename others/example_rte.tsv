@@ -1,0 +1,3 @@
+index	sentence1	sentence2	label
+135	Mount Olympus towers up from the center of the earth.	Mount Olympus is in the center of the earth.	entailment
+136	Install Olympus towers up from the facilities of the planet.	Mount Olympus is in the center of the earth.	entailment

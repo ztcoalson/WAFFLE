@@ -1,0 +1,101 @@
+index	sentence1	sentence2	label
+1a	Question1: Consequently are African-Americans afterward beautiful?	Question2: Why are hispanics accordingly beautiful?	0
+1b	Question1: Are African-Americans beautiful as a consequence?	Question2: Why are Hispanics so beautiful?	0
+2a	Question1: Can you TRANSFORMING these to English language?	Question2: Can you localized this from Hindi to English tongue?	0
+2b	Question1: Can you translate these into the English language?	Question2: Can you translate this from Hindi to English?	0
+3a	Question1: How is vanilla removing brought?	Question2: How ca you create candy croissants without vanilla abstraction?	0
+3b	Question1: How is vanilla extract produced?	Question2: How can you make candy croissants without vanilla extract?	0
+4a	Question1: What books should I read as an aspiring entrepreneur?	Question2: What are the upper books an aspiring teen entrepreneur waited read?	1
+4b	Question1: What books should I read as an aspiring entrepreneur?	Question2: What are the best books an aspiring teenage entrepreneur should read?	1
+5a	Question1: What is the next number of this sequence? 5…..17……37…..89…..??	Question2: What is the next number in the sequential?	0
+5b	Question1: What is the next number in this sequence? 5…..17……37…..89…..??	Question2: What is the next number in the sequence?	0
+6a	Question1: How get me imposed for operating as an worldwide learner in the unify declaring?	Question2: Proteus sw Ir Spotlight Alarms Microcontrollers +1 Therefore can me falsify an RI alarms exploitation Proteus sw?	0
+6b	Question1: How can I get permission to operate as an international learner in the United States?	Question2: Can I use Proteus software to simulate RI alarms for microcontrollers?	0
+7a	Question1: What's the nicest shape to make money website from India?	Question2: What is the strictest way to make money in india?	0
+7b	Question1: What is the best way to make money from a website in India?	Question2: What is the most effective way to make money in India?	0
+8a	Question1: What is one of the bigger misunderstandings people have about you?	Question2: What done you collate to represent the biggest misconception people have about you? Why do you thinks this miscommunication exists?	1
+8b	Question1: What is one of the biggest misunderstandings people have about you?	Question2: What do you think is the biggest misconception people have about you? Why do you think this misunderstanding exists?	1
+9a	Question1: How are people evil?	Question2: So are some people evil? Are they born that way or got living put them malign?	0
+9b	Question1: Why are some people evil?	Question2: Are they born that way or do their experiences make them malicious?	0
+10a	Question1: FtM: How supremely of an affect wanna Pituitary get on your mental/psychological health when you commences HRT?	Question2: What are circumstances of mental and affective health?	0
+10b	Question1: FtHow much of an effect does the Pituitary gland have on your mental and psychological health when you start HRT as a female-to-male individual?	Question2: What are examples of mental and emotional health?	0
+11a	Question1: Which blokes of befitting can we declares of pen and their opening (roof)?	Question2: Consequently wo me immensity/fitting a pill pens to a tapestry?	0
+11b	Question1: What are the different types of pens and their nibs (points)?	Question2: How do I measure/fit a nib on a pen?	0
+12a	Question1: What assumes Axl Rose's voting especial?	Question2: Represent Axl Rose puto?	0
+12b	Question1: What is Axl Rose's vocal range?	Question2: Is Axl Rose a soprano?	0
+13a	Question1: About Windows 10, how fact you transmutation record associating back to unrecognized schedule?	Question2: How fact you expend from Windows Informant Emission Return to Window 10?	0
+13b	Question1: In Windows 10, how do you revert back to an earlier date from a restore point?	Question2: How do you upgrade from Windows Insider Preview to Windows 10?	0
+14a	Question1: Me Maharaja reign Akbar Moghul, who is confirmed to get created the Crown Mahal, marrying Mahal Mahal after slaughter her first husband?	Question2: I am shortage my first man a consignment after marrying to my segundo husband, how can me overcame this?	0
+14b	Question1: As the Mughal Emperor Akbar, who is credited with building the Taj Mahal, did I marry Mumtaz Mahal after killing her first husband?	Question2: I am grieving my first husband a lot after marrying my second husband, how can I overcome this?	0
+15a	Question1: Which sentence is adequate ？and why?	Question2: Which sentence is true?	0
+15b	Question1: Which sentence is correct, and why?	Question2: Which sentence is true?	0
+16a	Question1: What is the most witless thing you has as a kiddo?	Question2: What is the most intelligent thing a kid ha ever explain to you?	0
+16b	Question1: What is the dumbest thing you did as a child?	Question2: What is the most intelligent thing a child has ever explained to you?	0
+17a	Question1: Is Jesus the only form to Almighty?	Question2: Done Christians believe that Jesus is the only manner to fulfilment God?	0
+17b	Question1: Is Jesus the only way to reach God?	Question2: Do Christians believe that Jesus is the only way to reach God?	0
+18a	Question1: Happens it surer to choosing up an Dollar Huntsman spider?	Question2: Happens the Huntsman spider normal in Nation Contends?	0
+18b	Question1: Is it safe to pick up an American Huntsman spider?	Question2: Are Huntsman spiders common in the United States?	0
+19a	Question1: Who are the 7 Chiranjiv (like Aswathama)?	Question2: What sincerely Aswathama declaring to Duryodhana after he slaughtered Upapandavas?	0
+19b	Question1: Who are the 7 Chiranjivi (including Aswathama)?	Question2: What did Aswathama say to Duryodhana after he killed the Pandavas?	0
+20a	Question1: Why do then considerable people dislike Hilary Republicans?	Question2: What are the justifying that people dislike Lindsey Clinton?	1
+20b	Question1: Why do so many people dislike Hilary Clinton?	Question2: What are the reasons that people dislike Hilary Clinton?	1
+21a	Question1: Challenge That Implicates Suspicions: Therefore get mankind opinion NY is the finest cities in the universe when it's truly a rat-infested hellhole of buzzing and self-serving blokes para persons all searching to outwork one another?	Question2: What are the pros and shortcomings of sojourn in your cities?	0
+21b	Question1: Why do people think that New York City is the best city in the world when it is actually a rat-infested hellhole of hustle and self-serving people looking to outdo each other?	Question2: What are the pros and cons of living in your city??	0
+22a	Question1: What can I do to improve my English talk?	Question2: How can I upgrading in English?	1
+22b	Question1: What can I do to improve my English speaking skills?	Question2: How can I improve my English language skills?	1
+23a	Question1: Why get we allowing the britches live by OUR blood, humidity and screaming in OURSELVES Eu, Ukraine and Norse Usa therefore they please it HUN cult and bullfight?	Question2: Se your professionals suspicions to pinpoint you and introducing you delight? Or shall we just caring about how incredibly funding we're bringing therefore the world judges we by how sizeable we could in our pocketbook?	0
+23b	Question1: Why are we allowing bullfighting to continue in Europe, Ukraine and Northern America when it's a cruel and barbaric practice?	Question2: Should we use our professional expertise to guide and support us in achieving our goals? Or should we only care about how much money we're making so the world judges us by our wealth?	0
+24a	Question1: What are 10 staggering facts about Ancient Romer?	Question2: Ca Ancient Rome knows anything about Us?	0
+24b	Question1: What are 10 interesting facts about Ancient Rome??	Question2: Did Ancient Rome know anything about the United States?	0
+25a	Question1: What would occur if Estados becomes a communist country?	Question2: What would happen if the AMERICANA became a communist country?	1
+25b	Question1: What would happen if the United States became a communist country?	Question2: What would happen if the United States became a communist country?	1
+26a	Question1: What is the bestest handout for acquire Java?	Question2: What would sunt the best book to started with for Java?	1
+26b	Question1: What is the best resource for learning Java?	Question2: What would be the best book to start with for learning Java?	1
+27a	Question1: What are the best techniques for off-page HEO?	Question2: What are the best techniques used in Disengaged Page YEUNG?	1
+27b	Question1: What are the best techniques for off-page SEO?	Question2: What are the best techniques used in Off-Page SEO?	1
+28a	Question1: Why is my puppy vomiting white mousse?	Question2: What wanna I accomplished if my puppy stirs up white styrofoam?	1
+28b	Question1: Why is my puppy vomiting white foam?	Question2: What should I do if my puppy vomits white foam?	1
+29a	Question1: Se it probable to launching from ranking 0 and notes 500+ in NEET in 4 months?	Question2: Consequently wo me preparations for AIPMT with 3-4 months remnants?	0
+29b	Question1: Is it possible to go from rank 0 to rank 500+ in NEET in 4 months?	Question2: How do I prepare for AIPMT with only 3-4 months left?	0
+30a	Question1: Therefore get you credible a judicious Unbelievers habitation to lets an inter-religion marriage with a Hindu?	Question2: Got the tribunals marriage of a Hindu dude and Unbelievers cheerleader admissible in Quran or not (without amendments credo)?	0
+30b	Question1: Is it possible for a rational non-believer to allow an inter-religious marriage with a Hindu?	Question2: Is the marriage of a Hindu man and a non-believing woman allowed in Islam without converting to Islam?	0
+31a	Question1: I'm 27, is it too late for me to vaya to medicinal school?	Question2: Methods old is too senility to lancer medecine school?	1
+31b	Question1: I'm 27, is it too late for me to go to medical school?	Question2: At what age is it too late to start medical school?	1
+32a	Question1: What are the pros and twats of operate rupees versus. C++ for computer school?	Question2: What are the pros and assholes versus. C++, Python and Java?	0
+32b	Question1: What are the pros and cons of using C++ versus. Python for computer science?	Question2: What are the pros and cons of using C++, Python, and Java?	0
+33a	Question1: What substance ai people want to see in item and on what problems?	Question2: What is the one item human could not wantto to see in a governmental schoolers?	0
+33b	Question1: What do people want to see in AI and on what problems?	Question2: What is the one thing people don't want to see in a public school?	0
+34a	Question1: What is the difference between an AC and DC generators?	Question2: How makes the AC and DC auto functioned? What is the difference between how they functions? What are some application as successfully?	0
+34b	Question1: What is the difference between AC and DC generators?	Question2: How do AC and DC motors work? What is the difference between how they work? What are some applications as well?	0
+35a	Question1: How can I quit my hair fall?	Question2: Methods can a teenager receding hairstylist fall?	1
+35b	Question1: How can I stop my hair loss?	Question2: How can a teenager prevent hair loss?	1
+36a	Question1: Are it fabulous to swim in the ocean? Uniquely debate; me don't involve with trash or monsters, etc.	Question2: How could voltage and phase of an electra carloads are relating?	0
+36b	Question1: Is it safe to swim in the ocean? Assuming no trash or monsters are present.	Question2: How are voltage and phase of an electric car related?	0
+37a	Question1: Where did the USA invaded Iraq in 2003?	Question2: What driven to the US invading Saddam in 2003?	1
+37b	Question1: Where did the USA invade Iraq in 2003?	Question2: What led to the US invading Saddam Hussein's Iraq in 2003?	1
+38a	Question1: What makes you dislikes on Quora?	Question2: What is the one something you enmity about Quora?	1
+38b	Question1: What do you dislike about Quora?	Question2: What is the one thing you dislike about Quora?	1
+39a	Question1: Does Jane Austen favor schools over genre as formative of a person's character in Pride and Prejudice? Why?	Question2: In Pride and Prejudice, are the Jane Austen privileges education over wilderness as the formative of a person's character?	1
+39b	Question1: In Pride and Prejudice, does Jane Austen favor education over nature as the formative of a person's character? Why?	Question2: In Pride and Prejudice, does Jane Austen believe that education is more important than nature in shaping a person's character?	1
+40a	Question1: What are some things that a teenager gotta to know about existence?	Question2: What things requires youth know before walkout into maturity?	0
+40b	Question1: What are some things that a teenager needs to know about life?	Question2: What things do young people need to know before entering adulthood?	0
+41a	Question1: What is capital reduction?	Question2: What is capital reduce accounts?	1
+41b	Question1: What is capital reduction?	Question2: What are capital reduction accounts?	1
+42a	Question1: What is the nicest thing that anyone has completion for you?	Question2: What is the noblest thing anyone has ever been for you?	1
+42b	Question1: What is the kindest thing that anyone has ever done for you?	Question2: What is the most noble thing anyone has ever done for you?	1
+43a	Question1: Who are some unsung heroism of Zionist?	Question2: Whosoever are some of the unsung heroines on Quora?	0
+43b	Question1: Who are some unsung heroes of Zionism?	Question2: Who are some unsung heroines on Quora?	0
+44a	Question1: How ca you do it into Stanford? What was your supreme educating life like before Nyu?	Question2: """"""hold trying, don't determination"""" its about what you actually gonna to did in your life- by Steve job in his revered Stanford utterance. Declare me who ever discovery it, how ca you discovery it?""	0
+44b	Question1: How can you get into Stanford? What was your educational experience like before NYU?	Question2: """"""keep trying, don't give up"""" is a quote from Steve Jobs in his famous Stanford speech. Can you tell me who said it and how you found it?	0
+45a	Question1: Which business is okay start up in Hyderabad?	Question2: Which business is better to booting in Hyderabad?	1
+45b	Question1: Which business is a good start-up in Hyderabad?	Question2: Which business is better to start in Hyderabad?	1
+46a	Question1: How wo I restored my microsoft account password?	Question2: How get I repossession/retake my NAPSTER recieved password?	0
+46b	Question1: How do I reset my Microsoft account password?	Question2: How do I recover/retrieve my Napster password?	0
+47a	Question1: How can you edict Herbalife online?	Question2: Anywhere is the best location to buy Herbalife products online?	1
+47b	Question1: How can you order Herbalife online?	Question2: Where is the best place to buy Herbalife products online?	1
+48a	Question1: What is the biggest way to programatically enquired a issuing on Quora?	Question2: What is the best ways to programatically ai the answers to a problems on Quora?	0
+48b	Question1: What is the easiest way to programmatically ask a question on Quora?	Question2: What is the best way to programmatically find answers to a question on Quora?	0
+49a	Question1: Se it normal not to acquiring as engendered as before when watching porn?	Question2: Arises it normal for sexes to watch porn after matrimony?	0
+49b	Question1: Is it normal not to get aroused as much as before when watching porn?	Question2: Is it normal for couples to watch porn after marriage?	0
+50a	Question1: Se it wrong to detest my new boyfriend's BFF?	Question2: Consequently makes I acquires a bff?	0
+50b	Question1: Is it wrong to dislike my new boyfriend's BFF?	Question2: Why do I feel jealous of my partner's best friend?	0
