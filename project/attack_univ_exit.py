@@ -456,11 +456,6 @@ def run_attacks(args):
             model.bert.set_patience(args.entropy)
             model.bert.multiexit=args.multiexit
             tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=True)
-        elif args.model_type == "roberta":
-            model.roberta.reset_stats()
-            model.roberta.set_patience(args.entropy)
-            model.roberta.multiexit=args.multiexit
-            tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=False)
         else:
             raise NotImplementedError()
 
@@ -486,10 +481,6 @@ def run_attacks(args):
             model.bert.encoder.set_early_exit_entropy(args.entropy)
             model.bert.encoder.multiexit=args.multiexit
             tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=True)
-        elif args.model_type == "roberta":
-            model.roberta.encoder.set_early_exit_entropy(args.entropy)
-            model.roberta.encoder.multiexit=args.multiexit
-            tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=False)
         else:
             raise NotImplementedError()
     

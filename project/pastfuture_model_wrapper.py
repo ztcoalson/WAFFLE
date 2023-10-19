@@ -96,8 +96,6 @@ class PastfutureModelWrapper(PyTorchModelWrapper):
             exitlayer = self.model.albert.exit_layer
         elif self.model_type == "bert":
             exitlayer = self.model.bert.exit_layer
-        elif self.model_type == "roberta":
-            exitlayer = self.model.roberta.exit_layer
         else:
             raise NotImplementedError()
 

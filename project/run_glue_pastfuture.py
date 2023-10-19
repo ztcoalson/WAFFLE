@@ -104,8 +104,6 @@ def train(args, train_dataset, model, tokenizer, freeze_lower=False):
         model.albert.set_total_step(t_total)
     elif args.model_type == 'bert':
         model.bert.set_total_step(t_total)
-    elif args.model_type == 'roberta':
-        model.roberta.set_total_step(t_total)
     else:
         raise NotImplementedError()
 
@@ -284,8 +282,6 @@ def evaluate(args, model, tokenizer, prefix=""):
         model.albert.reset_stats()
     elif args.model_type == 'bert':
         model.bert.reset_stats()
-    elif args.model_type == 'roberta':
-        model.roberta.reset_stats()
     else:
         raise NotImplementedError()
 
@@ -375,8 +371,6 @@ def evaluate(args, model, tokenizer, prefix=""):
         model.albert.log_stats()
     elif args.model_type == 'bert':
         model.bert.log_stats()
-    elif args.model_type == 'roberta':
-        model.roberta.log_stats()
     else:
         raise NotImplementedError()
 
@@ -711,8 +705,6 @@ def main():
         model.albert.set_args(args)
     elif args.model_type == 'bert':
         model.bert.set_args(args)
-    elif args.model_type == 'roberta':
-        model.roberta.set_args(args)
     else:
         raise NotImplementedError()
 
@@ -771,8 +763,6 @@ def main():
                     model.albert.set_patience(patience)
                 elif args.model_type == 'bert':
                     model.bert.set_patience(patience)
-                elif args.model_type == 'roberta':
-                    model.roberta.set_patience(patience)
                 else:
                     raise NotImplementedError()
                 result = evaluate(args, model, tokenizer, prefix=prefix)

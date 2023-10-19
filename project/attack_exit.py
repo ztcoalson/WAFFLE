@@ -36,18 +36,14 @@ from pabee.modeling_pabee_albert import AlbertForSequenceClassificationWithPabee
 from pabee.modeling_pabee_bert import BertForSequenceClassificationWithPabee
 
 from deebert.modeling_highway_bert import DeeBertForSequenceClassification
-from deebert.modeling_highway_roberta import DeeRobertaForSequenceClassification
 
 from pastfuture.modeling_albert import AlbertForSequenceClassification
 from pastfuture.modeling_bert import BertForSequenceClassification
-from pastfuture.modeling_roberta import RobertaForSequenceClassification
 
 # configurations
 from transformers import (
     BertConfig,
     BertTokenizer,
-    RobertaConfig,
-    RobertaTokenizer,
     AlbertConfig,
     AlbertTokenizer
 )
@@ -151,7 +147,6 @@ def run_attacks(args):
             'e{}_{}'.format(args.entropy, attack_string))
         model_classes = {
             "bert": (BertConfig, BertForSequenceClassification, BertTokenizer),
-            "roberta": (RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer),
             "albert": (AlbertConfig, AlbertForSequenceClassification, AlbertTokenizer),}
         args.model_type = args.model_type.lower()
         config_class, model_class, tokenizer_class = model_classes[args.model_type]
@@ -167,11 +162,6 @@ def run_attacks(args):
             model.bert.set_patience(args.entropy)
             model.bert.multiexit=args.multiexit
             tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=True)
-        elif args.model_type == "roberta":
-            model.roberta.reset_stats()
-            model.roberta.set_patience(args.entropy)
-            model.roberta.multiexit=args.multiexit
-            tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=False)
         else:
             raise NotImplementedError()
 
@@ -188,8 +178,7 @@ def run_attacks(args):
             args.result_dir, \
             'e{}_{}'.format(args.entropy, attack_string))
         model_classes = {
-            "bert": (BertConfig, DeeBertForSequenceClassification, BertTokenizer),
-            "roberta": (RobertaConfig, DeeRobertaForSequenceClassification, RobertaTokenizer),}
+            "bert": (BertConfig, DeeBertForSequenceClassification, BertTokenizer),}
         args.model_type = args.model_type.lower()
         config_class, model_class, tokenizer_class = model_classes[args.model_type]
         model = model_class.from_pretrained(args.model_path)
@@ -198,10 +187,6 @@ def run_attacks(args):
             model.bert.encoder.set_early_exit_entropy(args.entropy)
             model.bert.encoder.multiexit=args.multiexit
             tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=True)
-        elif args.model_type == "roberta":
-            model.roberta.encoder.set_early_exit_entropy(args.entropy)
-            model.roberta.encoder.multiexit=args.multiexit
-            tokenizer = tokenizer_class.from_pretrained(args.model_path, do_lower_case=False)
         else:
             raise NotImplementedError()
     
