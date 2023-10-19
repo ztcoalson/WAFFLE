@@ -56,6 +56,20 @@ Download pre-trained models from this [Google Drive Link: BERTs](https://drive.g
     $ tar -zxvf robest_models.tar.gz
 ```
 
+Install required packages.
+
+```
+    $ pip install -r requirements.txt
+```
+
+We implement our code by adapting TextAttack to multi-exit models. We offer our own TextAttack repository containing the adaptation to multi-exit models. You can install this by running the following commands: 
+
+```
+    // Note: this will override TextAttack installed in your local
+    $ cd TextAttack
+    $ pip install -e ./
+```
+
 &nbsp;
 
 ----
@@ -82,14 +96,6 @@ You can run the following script for evaluating the test-time performance of fin
 ----
 
 ## Run the adversarial attacks
-
-We implement our code by adapting TextAttack to multi-exit models. We offer our own TextAttack repository containing the adaptation to multi-exit models. You can install this by running the following commands: 
-
-```
-    // Note: this will override TextAttack installed in your local
-    $ cd TextAttack
-    $ pip install -e ./
-```
 
 After you overwrite our TextAttack package, you can run the attacks by running the following commands:
 
