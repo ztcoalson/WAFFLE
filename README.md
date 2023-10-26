@@ -3,7 +3,8 @@
 
 This repository contains the code for reproducing the results of our paper:
 
-- BERT Lost Patience Won't Be Robust to Adversarial Slowdown [NeurIPS 2023]
+- [BERT Lost Patience Won't Be Robust to Adversarial Slowdown]() **[NeurIPS 2023]**
+- **[Zachary Coalson](mailto:coalsonz@oregonstate.edu)**, Gabriel Ritter, Rakesh Bobba, Sanghyun Hong.
 
 &nbsp;
 
@@ -11,13 +12,13 @@ This repository contains the code for reproducing the results of our paper:
 
 ### TL;DR
 
-We conduct a systematic evaluation of the robustness of multi-exit language models to adversarial slowdown and show that their computational savings aren't robust to that.
+We show that the computational savings provided by multi-exit language models aren't robust to adversarial slowdown.
 
 &nbsp;
 
 ### Abstract
 
-We systematically evaluate the robustness of multi-exit language models against adversarial slowdown. To audit their robustness, we develop a slowdown attack that generates natural adversarial text bypassing early-exit points. We use the resulting Waffle attack as a vehicle to conduct a comprehensive evaluation of three multi-exit mechanisms with the GLUE benchmark against adversarial slowdown. We then show our attack significantly reduces the computational savings provided by the three methods. The more complex a mechanism is, the more vulnerable it is to adversarial slowdown. We also perform a linguistic analysis of the perturbed text inputs, identifying common perturbation patterns that our attack generates, and compare them with standard adversarial text attacks. Moreover, we show that adversarial training is ineffective in defeating our slowdown attack, but input sanitation with a conversational model, e.g., ChatGPT, can remove the perturbation effectively. This result suggests that future work is needed for developing efficient yet robust multi-exit models.
+In this paper, we systematically evaluate the robustness of multi-exit language models against adversarial slowdown. To audit their robustness, we design a slowdown attack that generates natural adversarial text bypassing early-exit points. We use the resulting WAFFLE attack as a vehicle to conduct a comprehensive evaluation of three multi-exit mechanisms with the GLUE benchmark against adversarial slowdown. We then show our attack significantly reduces the computational savings provided by the three methods in both white-box and black-box settings. The more complex a mechanism is, the more vulnerable it is to adversarial slowdown. We also perform a linguistic analysis of the perturbed text inputs, identifying common perturbation patterns that our attack generates, and comparing them with standard adversarial text attacks. Moreover, we show that adversarial training is ineffective in defeating our slowdown attack, but input sanitization with a conversational model, e.g., ChatGPT, can remove perturbations effectively. This result suggests that future work is needed for developing efficient yet robust multi-exit models.
 
 &nbsp;
 
@@ -25,7 +26,7 @@ We systematically evaluate the robustness of multi-exit language models against 
 
 ## Prerequisites
 
-Download the GLUE dataset from this [Google Drive link](https://drive.google.com/file/d/1E3YjvukrVRNNo06FdUTbRSf35hnks65Z/view?usp=sharing). (Or feel free to download the dataset from the Hugging Face library, below.)
+Download the GLUE dataset from this [Google Drive link](https://drive.google.com/file/d/1E3YjvukrVRNNo06FdUTbRSf35hnks65Z/view?usp=sharing).
 
 ```
     // unzip the file (in case you download the file)
@@ -35,14 +36,14 @@ Download the GLUE dataset from this [Google Drive link](https://drive.google.com
     $ tar -zxvf GLUE.tar.gz
 ```
 
-Download the dataset using the Python script `huggingface` provides.
+OR download the dataset using the Python script `huggingface` provides.
 
 ```
     $ python download_glue_data.py
 ```
 
 
-Download pre-trained models from this [Google Drive Link: BERTs](https://drive.google.com/file/d/1xHWlGeTq8wIjnQHsIh_UfcS6Hv-pGEam/view?usp=sharing) + [Google Drive Link: Others](https://drive.google.com/file/d/1BLd43ZECavTVb6-oyoTDJRPOooliriGb/view?usp=sharing) + [Google Drive Link: Robust](https://drive.google.com/file/d/1jfK_EWMoCt4n8IhMJJu07NtYPX2kF5fD/view?usp=share_link)
+Download pre-trained models from the following links: [Google Drive Link: BERTs](https://drive.google.com/file/d/1xHWlGeTq8wIjnQHsIh_UfcS6Hv-pGEam/view?usp=sharing) + [Google Drive Link: Others](https://drive.google.com/file/d/1BLd43ZECavTVb6-oyoTDJRPOooliriGb/view?usp=sharing) + [Google Drive Link: Robust](https://drive.google.com/file/d/1jfK_EWMoCt4n8IhMJJu07NtYPX2kF5fD/view?usp=share_link)
 
 ```
     // unzip the file under 'model_output' dir.
@@ -159,10 +160,33 @@ The script is designed specifically for SST-2 (which includes hard-coded hyperpa
 
 ----
 
+## Black-box attacks
+
+The simplest way to conduct black-box experiments is to modify the .tsv files of the datasets you wish to test with. For example, if you want to test the transferability of RTE samples crafted on PastFuture, you would format these samples into a .tsv file and rename it to the original test dataset of RTE contained in `./datasets/originals/glue_hub/RTE/test.tsv` (you would likely want to rename the original test dataset to something else to avoid overwriting it). Then, you can evaluate any model of your choosing on RTE and it will use the samples you crafted with PastFuture.
+
+&nbsp;
+
+----
+
 ## Cite Our Work
 
 Please cite our work if you find this source code helpful.
 
 ```
-    Appear later upon acceptance.
+    @inproceedings{
+        Coalson2023bert,
+        title={BERT Lost Patience Won't Be Robust to Adversarial Slowdown},
+        author={Zachary Coalson and Gabriel Ritter and Rakesh Bobba and Sanghyun Hong},
+        booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+        year={2023},
+        url={https://openreview.net/forum?id=TcG8jhOPdv}
+    }
 ```
+
+&nbsp;
+
+---
+
+&nbsp;
+
+Please contact [Zachary Coalson](mailto:coalsonz@oregonstate.edu) for any questions and recommendations.
