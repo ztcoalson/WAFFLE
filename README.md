@@ -174,7 +174,7 @@ Please cite our work if you find this source code helpful.
 
 ```
     @inproceedings{
-        Coalson2023bert,
+        Coalson2023WAFFLE,
         title={BERT Lost Patience Won't Be Robust to Adversarial Slowdown},
         author={Zachary Coalson and Gabriel Ritter and Rakesh Bobba and Sanghyun Hong},
         booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
