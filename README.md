@@ -1,9 +1,9 @@
 
-# BERT Shouldn't Lose Its Patience
+## BERT Lost Patience Won't Be Robust to Adversarial Slowdown [NeurIPS 2023]
 
 This repository contains the code for reproducing the results of our paper:
 
-- [BERT Lost Patience Won't Be Robust to Adversarial Slowdown]() **[NeurIPS 2023]**
+- [BERT Lost Patience Won't Be Robust to Adversarial Slowdown]()
 - **[Zachary Coalson](mailto:coalsonz@oregonstate.edu)**, Gabriel Ritter, Rakesh Bobba, [Sanghyun Hong](https://sanghyun-hong.com).
 
 &nbsp;
@@ -12,7 +12,7 @@ This repository contains the code for reproducing the results of our paper:
 
 ### TL;DR
 
-We show that the computational savings provided by multi-exit language models aren't robust to adversarial slowdown.
+You can use our attack to audit the vulnerability of multi-exit language models to adversarial slowdowns!
 
 &nbsp;
 
@@ -189,4 +189,4 @@ Please cite our work if you find this source code helpful.
 
 &nbsp;
 
-Please contact [Zachary Coalson](mailto:coalsonz@oregonstate.edu) for any questions and recommendations.
+Please contact Zachary Coalson (coalsonz@oregonstate.edu) for any questions and recommendations.
