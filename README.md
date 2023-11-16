@@ -1,9 +1,9 @@
 
-## BERT Lost Patience Won't Be Robust to Adversarial Slowdown [NeurIPS 2023]
+## BERT Lost Patience Won't Be Robust to Adversarial Slowdown [[NeurIPS 2023]](https://nips.cc/virtual/2023/poster/71547)
 
 This repository contains the code for reproducing the results of our paper:
 
-- [BERT Lost Patience Won't Be Robust to Adversarial Slowdown]()
+- [BERT Lost Patience Won't Be Robust to Adversarial Slowdown](https://arxiv.org/abs/2310.19152)
 - **[Zachary Coalson](mailto:coalsonz@oregonstate.edu)**, Gabriel Ritter, Rakesh Bobba, [Sanghyun Hong](https://sanghyun-hong.com).
 
 &nbsp;
